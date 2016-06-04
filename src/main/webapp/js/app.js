@@ -6,5 +6,10 @@ var app = angular.module('controleUsuarios', ['minhasDiretivas', 'ngRoute'])
 		controller: 'UserController'	
 	});
 
+	$routeProvider.when('/usuario/create', {
+		templateUrl: 'partials/usuario.html',
+		controller: 'CreateUserController'	
+	});
+
 	$routeProvider.otherwise({ redirectTo: '/usuarios'});
 });
