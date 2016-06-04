@@ -1,2 +1,2 @@
 "use strict";
-var app = angular.module('controleUsuarios', []);
+var app = angular.module('controleUsuarios', ['minhasDiretivas']);
